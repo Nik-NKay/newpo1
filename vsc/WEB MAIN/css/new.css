@@ -1,0 +1,40 @@
+form li  {
+
+list-style: none;
+margin-bottom: 20px;
+
+}
+
+
+label{
+ 
+    display: block;
+    cursor: pointer;
+}
+
+
+textarea{
+    width: 200px;
+    height: 300px;
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+li{
+    display: inline;
+    padding-right: 10px;
+}
+
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+*/
+
+
+
+

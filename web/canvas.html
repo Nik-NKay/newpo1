@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <article>
+      <section>
+
+        <canvas id="canvas1" width="400" height="300"></canvas>
+
+        <script>
+          var can = document.getElementById("canvas1");
+          var ctx = can.getContext("2d");
+          ctx.fillRect(20, 30, 100, 100);
+          ctx.fillstyle = "rgba(0, 200, 0 ,2)";
+
+          ctx.font = "bold 22px Tahoma";
+          ctx.textAlign = "start";
+          ctx.translate(100, 150);
+          ctx.fillText("after translate", 10, 30);
+        </script>
+
+
+        <form action="#" autocomplete="off">
+          <label for="email"> Your e-mail:</label>
+          <input type="text" id="user" name="email" required />
+          <input type="submit" value="submit">
+          <br>
+          <br>
+          <input type="text" id="car" list="colors" />
+          <datalist id="colors">
+            <option value="Red"></option>
+            <option value="Green"></option>
+            <option value="Yellow"></option>
+          </datalist>
+
+
+          <input type="text" id="email" type="email" placeholder="name@.com">
+          <br>
+          <input type="text" name="url" type="url" id="" placeholder="emap.com">
+          <input type="text" id="tel" type="tel" placeholder="+234 090">
+
+        </form>
+
+        <p></p>
+
+
+
+      </section>
+    </article>
+  </header>
+</body>
+
+</html>
